@@ -1,0 +1,6 @@
+node_modules
+logs
+.env
+jest.config.js
+gitignore
+package-lock.json
