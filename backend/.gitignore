@@ -2,5 +2,5 @@ node_modules
 logs
 .env
 jest.config.js
-gitignore
+.gitignore
 package-lock.json

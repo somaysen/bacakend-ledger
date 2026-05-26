@@ -10,7 +10,7 @@ required.forEach((key) => {
 });
 
 export const env = {
-  port: Number(process.env.PORT) || 4000,
+  port: process.env.PORT || 4000,
   mongoUri: process.env.MONGO_URI || 'mongodb://localhost:27017/backend-ledger',
   jwtSecret: process.env.JWT_SECRET,
   jwtRefreshSecret: process.env.JWT_REFRESH_SECRET,
